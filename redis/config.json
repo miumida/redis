@@ -1,0 +1,37 @@
+{
+  "name": "redis-server",
+  "version": "1.0.0",
+  "slug": "redis",
+  "description": "redis-server for ytplayer in Hass.io",
+  "auto_uart": true,
+  "url": "https://github.com/miumida",
+  "host_network":true,
+  "startup": "before",
+  "arch": [
+    "amd64",
+    "armv7"
+  ],
+  "boot": "auto",
+  "map": [
+    "share:rw",
+    "config:rw",
+    "addons:rw",
+    "ssl:ro"
+  ],
+  "ports": {
+    "6379/tcp": 6379
+  },
+  "ports_description": {
+    "6379/tcp": "Web interface"
+  },
+  "options": {
+    "data_path": "/share/redis",
+    "homeassistant": true,
+    "permit_join": false
+  },
+  "schema": {
+    "data_path": "str",
+    "homeassistant": "bool",
+    "permit_join": "bool"
+  }
+}
