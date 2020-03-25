@@ -10,7 +10,10 @@ redis 애드온 입니다.<br>
 <br><br>
 
 ### Version : 1.0.0
-2020-03-25 First Version
+|date|comment|
+|----|------------------|
+|2020-03-25| redis hass.io addon First Version. |
+
 <br><br>
 
 ### Installation
