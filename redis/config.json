@@ -1,10 +1,10 @@
 {
-  "name": "redis-server",
+  "name": "redis",
   "version": "1.0.0",
   "slug": "redis",
-  "description": "redis-server for ytplayer in Hass.io",
+  "description": "redis for ytplayer in Hass.io",
   "auto_uart": true,
-  "url": "https://github.com/miumida",
+  "url": "https://github.com/miumida/redis",
   "host_network":true,
   "startup": "before",
   "arch": [
@@ -14,7 +14,6 @@
   "boot": "auto",
   "map": [
     "share:rw",
-    "config:rw",
     "addons:rw",
     "ssl:ro"
   ],
