@@ -10,6 +10,7 @@ redis 애드온 입니다.<br>
 <br><br>
 
 ### Version : 1.0.0
+2020-03-25 First Version
 <br><br>
 
 ### Installation
