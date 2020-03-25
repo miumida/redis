@@ -7,6 +7,7 @@
 ### About
 redis 애드온 입니다.<br>
 밍밍1님의 유튜브 플레이어를 위한 애드온입니다.
+- redis.conf를 anppendolny yes로 설정되어 있습니다.
 <br><br>
 
 ### Version : 1.0.0
