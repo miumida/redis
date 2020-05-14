@@ -10,10 +10,11 @@ redis 애드온 입니다.<br>
 - redis.conf를 anppendolny yes로 설정되어 있습니다.
 <br><br>
 
-### Version : 1.0.0
-|date|comment|
-|----|------------------|
-|2020-03-25| redis hass.io addon First Version. |
+### Version : 1.0.1
+|version|date|comment|
+|----|----|------------------|
+|v1.0.0|2020-03-25| redis hass.io addon First Version. |
+|v1.0.1|2020-05-15| config.json arch add i386 |
 
 <br><br>
 
@@ -37,5 +38,5 @@ redis 애드온 입니다.<br>
 [armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 
-[addon-shield]: https://img.shields.io/badge/addon-1.0.0-orange.svg
+[addon-shield]: https://img.shields.io/badge/addon-1.0.1-orange.svg
 
