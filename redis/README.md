@@ -2,7 +2,7 @@
 
 ![Supports amd64 Architecture][amd64-shield]
 ![Supports armv7 Architecture][armv7-shield]
-![Version 1.0.0][addon-shield]
+![Version 1.0.2][addon-shield]
 
 ### About
 redis 애드온 입니다.<br>
@@ -10,11 +10,12 @@ redis 애드온 입니다.<br>
 - redis.conf를 anppendolny yes로 설정되어 있습니다.
 <br><br>
 
-### Version : 1.0.1
+### Version : 1.0.2
 |version|date|comment|
 |----|----|------------------|
 |v1.0.0|2020-03-25| redis hass.io addon First Version. |
 |v1.0.1|2020-05-15| config.json arch add i386 |
+|v1.0.2|2021-03-03| config.json options del permit_join<br>config.json startup change before<br>config.json auto_uart change uart |
 
 <br><br>
 
@@ -38,5 +39,5 @@ redis 애드온 입니다.<br>
 [armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
 
-[addon-shield]: https://img.shields.io/badge/addon-1.0.1-orange.svg
+[addon-shield]: https://img.shields.io/badge/addon-1.0.2-orange.svg
 
