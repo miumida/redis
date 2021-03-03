@@ -1,12 +1,12 @@
 {
   "name": "redis",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "slug": "redis",
   "description": "redis for ytplayer in Hass.io",
-  "auto_uart": true,
+  "uart": true,
   "url": "https://github.com/miumida/redis",
   "host_network":true,
-  "startup": "before",
+  "before": "before",
   "arch": [
     "amd64",
     "armv7",
@@ -26,12 +26,10 @@
   },
   "options": {
     "data_path": "/share/redis",
-    "homeassistant": true,
-    "permit_join": false
+    "homeassistant": true
   },
   "schema": {
     "data_path": "str",
-    "homeassistant": "bool",
-    "permit_join": "bool"
+    "homeassistant": "bool"
   }
 }
